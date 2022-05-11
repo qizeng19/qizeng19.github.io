@@ -2,43 +2,8 @@
 layout: default
 ---
 
-<style type="text/css">
-  .line {
-    width: 86px;
-    border-right: 4px solid #eee;
-    font-size: 28px;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-  }
-
-  .animation {
-    animation:
-      blink 0.7s steps(3) infinite normal;
-  }
-
-  @keyframes grow {
-    from {
-      width: 0;
-    }
-
-    to {
-      width: 86px;
-    }
-  }
-
-  @keyframes blink {
-    from {
-      border-right-color: #eee;
-    }
-
-    to {
-      border-right-color: #222;
-    }
-  }
-</style>
 <header>
-  <h1 class="line animation">{{ site.title }}</h1>
+  <h1>{{ site.title }}</h1>
   {%-if site.theme_config.show_description-%}
   <p>{{ site.description }}</p>
   {%-endif-%}
