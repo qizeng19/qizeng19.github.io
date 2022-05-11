@@ -2,14 +2,14 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: info
+  - title: 基本信息
     entries:
-      - title: 记录一些生活杂碎的地方。
-      - title: 比较随意_____
+      - title: 记录一些有意思的东西。
+      - title: 比较随意，东拉西扯_____
         # url: https://github.com/riggraz/no-style-please
-      - title: Action speaks louder than words. 
+      # - title: Action speaks louder than words. 
 
-  - title: all posts
+  - title: 全部文章
     post_list:
       limit: 5
       show_more: true
@@ -23,7 +23,7 @@ entries:
   #     show_more_text: See more posts...
   #     show_more_url: example2-archive.html
 
-  - title: rss
+  - title: 订阅
     url: feed.xml
   
   # - title: another list
